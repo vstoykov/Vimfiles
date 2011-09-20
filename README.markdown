@@ -16,7 +16,7 @@ First of all backup your current ~/.vim/
 
 
     cd ~
-    git clone git@github.com:Vladimiroff/Vimfiles.git
+    git clone git@github.com:vkstoykov/Vimfiles.git
     cd Vimfiles
     git submodule init
     git submodule update
