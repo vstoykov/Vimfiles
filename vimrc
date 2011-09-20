@@ -36,7 +36,7 @@ set hidden
 set mouse=a
 
 " Colors
-colorscheme wombat256i
+colorscheme desert
 let g:indent_guides_start_level = 2
 let g:indent_guides_guide_size = 1
 set t_Co=256
@@ -111,5 +111,5 @@ set ttimeout
 set ttimeoutlen=200
 
 " Clipbaord
-set clipboard=unnamedplus
+set clipboard=unnamed
 
