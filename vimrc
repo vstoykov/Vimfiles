@@ -1,4 +1,5 @@
-" Vladimiroff's vimfile
+" VStoykov's vimfile
+" Inspired by Vladimiroff
 
 call pathogen#runtime_append_all_bundles()
 
@@ -36,10 +37,15 @@ set hidden
 set mouse=a
 
 " Colors
-colorscheme desert
+colorscheme wombat256i
 let g:indent_guides_start_level = 2
 let g:indent_guides_guide_size = 1
 set t_Co=256
+if has("gui_running")
+    exec "hi Normal ctermbg=White ctermfg=Black guifg=White guibg=Black"
+    set lines=45
+    set columns=120
+endif
 
 " Status Line and Cursor highlighting
 set statusline=%F%m%r%h%w\ %y\ [ascii=\%03.3b\|hex=\%02.2B]\ [%04l\|%04v][%p%%]\ [%L\ lines]

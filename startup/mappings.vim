@@ -40,5 +40,9 @@ imap <C-p> <Esc>pa
 " Nicer single-line visual mode
 nnoremap vv _v$h
 
-" Execute Pylint 
-map <C-q> :Pylint<CR>
+" Using global clipboard easely
+vmap <C-x> "+x
+vmap <C-c> "+y
+map <C-p> i"+pa<Esc>
+imap <C-p> <Esc>"+pa
+
