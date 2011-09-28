@@ -16,9 +16,14 @@ First of all backup your current ~/.vim/
 
 
     cd ~
-    git clone git@github.com:vstoykov/Vimfiles.git
-    cd Vimfiles
+    git clone git://github.com/vstoykov/Vimfiles.git
+    
+    cd .vim
     git submodule init
     git submodule update
     cd ..
-    mv Vimfiles .vim
+    ln -s .vim/vimrc .vimrc
+
+    # If you have access to push in to this repo use 
+    git clone git@github.com:vstoykov/Vimfiles.git .vim
+    # instead above command
