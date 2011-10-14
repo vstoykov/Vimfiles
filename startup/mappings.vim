@@ -43,6 +43,6 @@ nnoremap vv _v$h
 " Using global clipboard easely
 vmap <C-x> "+x
 vmap <C-c> "+y
-map <C-p> i"+pa<Esc>
+map <C-p> "+p
 imap <C-p> <Esc>"+pa
 
