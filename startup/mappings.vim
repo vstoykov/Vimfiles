@@ -46,3 +46,7 @@ vmap <C-c> "+y
 map <C-p> "+p
 imap <C-p> <Esc>"+pa
 
+" Reindent without losing the selection
+xnoremap > >gv
+xnoremap < <gv
+
