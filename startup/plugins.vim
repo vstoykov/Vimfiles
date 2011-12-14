@@ -11,6 +11,8 @@ let g:NERDTreeIgnore = [
       \ '\.pyc',
       \ '\.swp'
       \ ]
+let g:nerdtree_tabs_open_on_console_startup = 0
+let g:nerdtree_tabs_focus_on_files = 1
 
 " Don't map over J and K
 let g:NERDTreeMapJumpFirstChild = '-'
@@ -29,9 +31,6 @@ let OmniCpp_LocalSearchDecl     = 1 " Search regardless of bracket position
 let OmniCpp_MayCompleteDot      = 1 " Automatically complete
 let OmniCpp_MayCompleteArrow    = 1 " Automatically complete
 
-" Javascript indent
-let g:SimpleJsIndenter_BriefMode = 1
-
 " Splitjoin
 let g:splitjoin_normalize_whitespace = 1
 let g:splitjoin_align                = 1
@@ -40,8 +39,3 @@ let g:splitjoin_align                = 1
 let Tlist_Inc_Winwidth = 0
 let Tlist_WinWidth = 45
 
-"PyFlakes
-let g:pyflakes_use_quickfix = 0
-
-" Reindent.py
-map ff <Plug>reindent

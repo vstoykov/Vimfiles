@@ -1,10 +1,6 @@
-" Taglist
 map <F2> :TlistToggle<CR>
+map gn :NERDTreeTabsToggle<CR>
 map <F3> :NERDTreeToggle<CR>
-
-" SplitJoin mappings
-nmap Sj :SplitjoinSplit<cr>
-nmap sk :SplitjoinJoin<cr>
 
 " Tabs
 nnoremap ,t :tabnew<cr>
@@ -18,9 +14,11 @@ command! Q q
 command! W w
 map <C-s> :w<CR>
 map <Space> :
-map <C-Space> <Esc>
-imap <C-k> <C-x><C-n>
 imap <C-s> <Esc>:w<CR>
+
+" Better Esc
+imap jk <Esc>l
+imap kj <Esc>l
 
 " Moving through splits:
 nmap gh <C-w>h
@@ -46,7 +44,23 @@ vmap <C-c> "+y
 map <C-p> "+p
 imap <C-p> <Esc>"+pa
 
+" Completion remappings:
+inoremap <C-j> <C-n>
+inoremap <C-k> <C-p>
+inoremap <C-o> <C-x><C-o>
+inoremap <C-u> <C-x><C-u>
+inoremap <C-f> <C-x><C-f>
+inoremap <C-]> <C-x><C-]>
+inoremap <C-l> <C-x><C-l>
+set completefunc=syntaxcomplete#Complete
+
 " Reindent without losing the selection
 xnoremap > >gv
 xnoremap < <gv
+
+" Delete surrounding function
+nmap dsf F(bdt(ds(
+
+" EasyMotion
+" map gw \\w
 

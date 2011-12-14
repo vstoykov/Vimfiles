@@ -12,7 +12,7 @@ Several reasons:
 
 ## How to install?
 
-First of all backup your current ~/.vim/
+First of all backup your current ~/.vim/ and ~/.vimrc
 
 
     cd ~
