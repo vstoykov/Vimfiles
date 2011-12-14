@@ -16,13 +16,7 @@ url = git://github.com/scrooloose/nerdtree.git
 ; [submodule "bundle/easymotion"]
 ; path = bundle/easymotion
 ; url = git://github.com/Lokaltog/vim-easymotion.git
-; [submodule "bundle/EasyMotion"]
-; path = bundle/easymotion
-; url = git://github.com/Lokaltog/vim-easymotion.git
 ; [submodule "bundle/html5"]
-; path = bundle/html5
-; url = git://github.com/othree/html5.vim.git
-; [submodule "bundle/html5.vim"]
 ; path = bundle/html5
 ; url = git://github.com/othree/html5.vim.git
 [submodule "bundle/pythoncomplete"]
@@ -58,3 +52,9 @@ url = git://github.com/corntrace/bufexplorer.git
 [submodule "bundle/tabman"]
 path = bundle/tabman
 url = git://github.com/kien/tabman.vim.git
+[submodule "bundle/html5"]
+	path = bundle/html5
+	url = git://github.com/othree/html5.vim.git
+[submodule "bundle/easymotion"]
+	path = bundle/easymotion
+	url = git://github.com/Lokaltog/vim-easymotion.git
