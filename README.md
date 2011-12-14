@@ -2,18 +2,13 @@
 
 My current .vim folder
 
-## Why?
+Inspired by Vladimiroff
+    https://github.com/Vladimiroff/Vimfiles
 
-Several reasons:
-
-* Couple friends of mine wanted me to share my .vim folder with them
-* I want a fast way to synchronize my vimfiles between the computers I use
-* It would be nice if I receive some ideas for handy plugins, settings...
 
 ## How to install?
 
 First of all backup your current ~/.vim/ and ~/.vimrc
-
 
     cd ~
     git clone git://github.com/vstoykov/Vimfiles.git .vim
